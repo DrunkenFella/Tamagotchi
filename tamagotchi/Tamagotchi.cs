@@ -51,11 +51,11 @@ public class bobby
 
         if (mood == true)
         {
-            Console.WriteLine($"{name} is happy || Hunger =  {hunger} || Boredom = {boredom} ");
+            Console.WriteLine($"{name} is happy || Hunger =  {hunger} /100 || Boredom = {boredom} /100 ");
         }
         else if (mood == false)
         {
-            Console.WriteLine($"{name} is bored || Hunger =  {hunger} || Boredom = {boredom} ");
+            Console.WriteLine($"{name} is bored || Hunger =  {hunger} /100 || Boredom = {boredom} /100 ");
         }
     }
     public bool GetAlive()
