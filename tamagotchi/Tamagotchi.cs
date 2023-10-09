@@ -83,7 +83,7 @@ public class Tama
 
     public void game()
     {
-        
+
 
         Console.WriteLine("Name your Tamagotchi!");
         name = Console.ReadLine();
@@ -101,7 +101,7 @@ public class Tama
         while (GetAlive() == true)
         {
             Console.Clear();
-           PrintStats();
+            PrintStats();
             Console.WriteLine("Now what do you want to do?");
             Console.WriteLine($"1. Teach {name} a bad word");
             Console.WriteLine($"2. Yell at {name}");
